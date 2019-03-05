@@ -1,0 +1,1030 @@
+@media screen and (min-width: 769px) {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  overflow-x:hidden;
+}
+html{
+  overflow-x:hidden;
+}
+.fixed_bar{
+ color: white;
+ padding: 20 0;
+ background-color: rgba(12,12,12,0.9);
+ text-align: center;
+ width: 70%;
+ position: fixed;
+ bottom: 20;
+ left: 50%;
+ margin: 0 auto;
+ transform: translateX(-50%);
+ border-radius: 50px;
+ border: 0;
+ font-size: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.fixed_bar_redbox {
+ color: white;
+ padding: 10 0;
+ background-image: linear-gradient(180deg,#e65a53 0%,#e50b00 100%)!important;
+ background-color: #e6e6e7;
+ text-align: center;
+ width: 15%;
+ text-align: center;
+ border: 0;
+ margin-right: 10%;
+ border-radius: 50px;
+ font-family: 'Nanum Gothic', sans-serif;
+}
+.fixed_bar h4{
+  display:flex;align-items:center;
+  margin: 0 0 0 25%;
+}
+button:focus{
+  outline:0 !important;
+}
+button:focus{
+  outline:0 !important;
+}
+.c-intro {
+ height: 100vh;
+ background-image: url(./image1.jpg);
+ background-size: cover;
+ background-position: left;
+ color: white;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.c-intro::before {
+ content: '';
+ display: block;
+ background-color: rgba(0,20,50,0.5);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+.c-intro_container{
+ position: relative;
+ text-align: center;
+}
+.c-blockchain{
+ background-image: url(./image2.jpg);
+ background-size: cover;
+ position: relative;
+ color: white;
+}
+.c-blockchain::before {
+ content: '';
+ display: block;
+ background-color: rgba(0, 0, 0, 0.25);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+.c-blockchain-container{
+ position: relative;
+ padding: 150 50 250;
+}
+p#blockchain_camp{
+ font-size: 70px;
+ line-height: 120%;
+ font-weight: 900;
+}
+p.blockchain_text{
+ font-size:20px;
+}
+table.blockchain_schedule{
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: white;
+ margin: 0 auto;
+ box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+ border-radius: 40px;
+}
+table.blockchain_schedule th, table.blockchain_schedule td {
+ padding: 20px;
+}
+table.blockchain_schedule tr:first-of-type{
+ border-bottom: 1px solid #e8e8e8;
+}
+#apply_notice{
+ color: white;
+ position: relative;
+ transform: translate(70%,700%);
+ margin-bottom: 0;
+}
+section.c-composition p{
+ text-align: center;
+}
+body > section.c-composition > div.card-container > div > div > p{
+  text-align: left;
+}
+.c-composition{
+ background-image: url(./star6.jpg);
+ background-size: cover;
+ padding-top: 250px;
+ height: 800px;
+}
+.composition_subtitle {
+ font-size:24px;
+ font-weight: bold;
+ border-left: 5px solid #333;
+ padding-left: 8px;
+ position:relative;
+ transform:translate(12%,0%)
+}
+.c-composition_container{
+ position: relative;
+ color: white;
+}
+div.card{
+ float: left;
+}
+p.card-text{
+ text-align: left;
+ margin-top: 20px;
+}
+h5.card-title{
+ font-weight: 700;
+}
+div.card{
+ margin: 30px;
+ border-color: #25b3f9;
+ background: none;
+}
+div.card-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin-top: 50px;
+}
+div.card-body {
+  width: 18rem;
+ position: relative;
+}
+div.card .card-body::before{
+ display: block;
+ font-size: 4rem;
+ position: absolute;
+ left: -10px;
+ top: -50px;
+ color: #25b3f9;
+ font-style: italic;
+}
+div.card:first-of-type .card-body::before{
+  content: '1';
+}
+div.card:nth-of-type(2) .card-body::before{
+  content: '2';
+}
+div.card:nth-of-type(3) .card-body::before{
+  content: '3';
+}
+.c-composition_example{
+  background-color: #efeff2;
+  padding: 100px 0px;
+  height: 1600px;
+}
+.img_1{
+  width:40%;
+  height:300px;
+  border: 2px solid #dddddd;
+  position: absolute;
+}
+.img_2{
+  position: relative;
+  transform: translate(80%, 50%);
+  width:40%;
+  height:300px;
+  border: 2px solid #dddddd;
+}
+.example_1_text_class{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.example_1_img_class{
+  display: flex;
+  justify-content: center;
+  transform: translate(-15%,0%);
+}
+.example_2{
+  margin-top: 250px;
+}
+.example_2_text_class{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.example_2_img_class{
+  display: flex;
+  transform: translate(10%,0%);
+}
+.img_3{
+  position: absolute;
+  width:40%; height:300px;border: 2px solid #dddddd;
+}
+.img_4{
+  position: relative;
+  transform: translate(10%,-10%);
+  width:40%; height:300px;border: 2px solid #dddddd;
+}
+.img_5{
+  position: relative;
+  transform: translate(-10%,25%);
+  width:40%; height:300px;border: 2px solid #dddddd;
+}
+.example_3{
+ margin-top: 500px;
+}
+.example_3_text_class{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.example_3_img_class{
+  display: flex;
+  justify-content: center;
+}
+.img_6{
+  width:40%;
+  height:300px;
+  border: 2px solid #dddddd;
+  margin: 5px;
+}
+section.c_curriculum{
+ padding: 100px;
+ background-image: url(./curriculum.jpg);
+ background-size: cover;
+ background-position: bottom;
+}
+body > section.c_curriculum > h2{
+  font-size:24px;
+  font-weight: bold;
+  border-left: 5px solid #333;
+  padding-left: 8px;
+  transform: translate(5%,0%);
+}
+.c_curriculum_text_container{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.curriculum_table_container table{
+  font-size: 15px;
+}
+.curriculum_left_container{
+  float: left;
+}
+table.curriculum_left{
+   float: left;
+}
+table.curriculum_left td, table.curriculum_left th{
+  border: 1px solid white;
+}
+.day_class{
+  background-color: #efefef;
+}
+table.curriculum_right .right_day_class{
+  width: 15%;
+}
+.curriculum_right_container{
+  float: left;
+}
+table.curriculum_right{
+  float: left;
+}
+table.curriculum_right td, table.curriculum_right th{
+  border: 1px solid white;
+}
+.curriculum_table_container th, .curriculum_table_container td{
+  padding: 10px;
+}
+.curriculum_table_container th{
+ background-color: #1f4287;
+ color: white;
+ font-weight: normal;
+}
+.curriculum_left_text{
+ background-color: white;
+ text-align: center;
+}
+.curriculum_main_text{
+ background-color: white;
+ text-align: left;
+}
+.c-differentiation{
+ padding:100px 150px;
+ background-color: white;
+}
+.differentiation_content_c{
+ width: 60%;
+ background-color: #f9f9f9;
+ margin: 0 auto;
+ padding: 30px 40px;
+ margin-bottom: 30px;
+ border-radius: 20px;
+ box-shadow: 6px 5px 30px -8px;
+ min-width: 250px;
+}
+.differentiation_content_c:hover{
+ width: 70%;
+ background-color: #f9f9f9;
+ margin: 0 auto;
+ padding: 40px 50px;
+ margin-bottom: 30px;
+ border-radius: 20px;
+ box-shadow: 5px 5px 30px -3px;
+}
+section.c-instructor{
+ padding:20px 50px 20px 50px;
+ background-color: white;
+}
+h3.instructor_title{
+ padding: 50px 30px 30px 30px;
+ text-align: center;
+}
+.instructor_img{
+  width: auto;
+  height:200;
+  display: block;
+  margin: 0 auto;
+}
+.instructor_introduce{
+  margin: 40px auto;
+  width: 50%;
+  height: 120px;
+  background-color: #c9d8f2;
+  padding: 20px 30px 20px 80px;
+}
+
+h4.instructor_profile_top{
+ font-weight: bold;
+ padding-left: 8px;
+ position: relative;
+ transform: translate(25%,0%);
+ margin-bottom: 0;
+}
+h4.instructor_profile_top:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #333;
+  width: 60px;
+  margin-top: 1px;
+  transform: translate(-10%,110%);
+}
+.instructor_profile{
+ margin: 50px 300px 50px 370px;
+}
+.instructor_intro_container{
+ width: 100%;
+ height:70%;
+ padding: 0px 0px 0px 30px;
+}
+.left_instructor{
+ width: 55%
+}
+.left_instructor_text{
+  float: left;
+  padding:20px;
+}
+.right_instructor{
+ width: 45%
+}
+.right_instructor_text{
+ padding: 20px;
+ float: left;
+}
+section.c-map{
+ padding: 30px 70px;
+ height: 120vh;
+ background-color: white;
+}
+.map_container{
+ width: auto;
+ height: auto;
+ display: flex;
+ justify-content: center;
+}
+h5.card-title{
+  color:white;
+  font-weight: 400;
+}
+p.card-text{
+ color:white;
+ font-weight: 300;
+}
+.c-composition_text_container h3 ,.c-composition_text_container p{
+ color: white;
+}
+.call-button{
+  color: black;
+  padding: 10 0;
+  background-image:
+  linear-gradient(to bottom,#f7ed8f,#edd117);
+  background-color: #e6e6e7;
+  text-align: center;
+  width: 40%;
+  text-align: center;
+  border: 0;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  margin: 50px 30% 30px 30%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.online-text{
+  font-size: 18px;
+  text-align: center;
+}
+}
+@media screen and (max-width: 768px) {
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    overflow-x:hidden;
+}
+html{
+  overflow-x:hidden;
+}
+.fixed_bar{
+  height: 50px;
+  color: white;
+  background-color: rgba(12,12,12,0.9);
+  width: 99%;
+  left: 1px;
+  position: fixed;
+  bottom: 1;
+  border-radius: 50px;
+  border: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.fixed_bar::before {
+    content: " ";
+    display: table;
+}
+.fixed_bar_redbox{
+  color: white;
+  padding: 5 0;
+  background-image: linear-gradient(180deg,#e65a53 0%,#e50b00 100%)!important;
+  background-color: #e6e6e7;
+  width: 26%;
+  height: 30;
+  text-align: center;
+  border: 0;
+  margin-right: 10%;
+  border-radius: 50px;
+  font-size: 10px;
+  margin: 10px 20px 10px 0px;
+  float: left;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 900;
+}
+.fixed_bar h4{
+  font-size: 13px;
+  width:270px;
+  justify-content: center;
+  display:flex;
+  align-items:center;
+  margin: 24px 0px 10px 35px;
+}
+button:focus{
+  outline:0 !important;
+}
+button:focus{
+  outline:0 !important;
+}
+.c-intro {
+  height: 100vh;
+  background-image: url(./image1.jpg);
+  background-size: cover;
+  background-position: left;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.c-intro::before {
+  content: '';
+  display: block;
+  background-color: rgba(0,20,50,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+body > section.c-intro > div > h1{
+  font-size: 26px;
+}
+body > section.c-intro > div > p{
+  font-size: 13px !important;
+}
+.c-intro_container{
+  position: relative;
+  text-align: center;
+}
+.c-blockchain{
+  background-image: url(./image2.jpg);
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.c-blockchain::before {
+  content: '';
+  display: block;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.c-blockchain-container{
+  position: relative;
+  padding: 150 30 250;
+}
+p#blockchain_camp{
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 900;
+}
+p.blockchain_text{
+  font-size:14px;
+}
+table.blockchain_schedule{
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+table.blockchain_schedule th, table.blockchain_schedule td {
+  font-size: 10px;
+  padding: 4px;
+}
+table.blockchain_schedule tr:first-of-type{
+  border-bottom: 1px solid #e8e8e8;
+}
+body > section.c-blockchain > table > tbody > tr:nth-child(1) > th{
+  padding-top: 8px;
+}
+
+body > section.c-blockchain > table > tbody > tr:nth-child(4) > td:nth-child(5) > div:nth-child(2){
+  padding:3px;
+}
+body > section.c-blockchain > table > tbody > tr:nth-child(3) > td:nth-child(5) > div:nth-child(2){
+  padding:3px;
+}
+#apply_notice{
+  color: white;
+  position: relative;
+  transform: translate(45%,-190%);
+  margin-bottom: 0;
+  font-size: 10px;
+}
+
+.composition_subtitle {
+ font-size:20px;
+ font-weight: bold;
+ border-left: 5px solid #333;
+ padding-left: 8px;
+ position:relative;
+ transform:translate(2%,-50%);
+}
+body > section.c-composition_example > div > div > h2{
+  font-size: 20px;
+  margin-bottom: 10px !important;
+}
+body > section.c-composition_example > div > div > h6{
+  margin: 18px;
+
+}
+body > section.c-composition_example > div.example_1 > div.example_1_text_class > h6{
+  font-size: 14px !important;
+}
+body > section.c-composition_example > div.example_2 > div.example_2_text_class > h6{
+  font-size: 13px;
+}
+section.c-composition p{
+  font-size: 12px;
+  text-align: center;
+}
+.c-composition{
+  background-image: url(./star6.jpg);
+  background-size: cover;
+  padding: 50px 40px;
+  height: 820px;
+}
+body > section.c-composition_example > div > div > h2{
+  font-size: 18px;
+}
+body > section.c-composition > div.c-composition_text_container > h3{
+  font-size: 40px !important;
+}
+.c-composition_container{
+  position: relative;
+  color: white;
+}
+div.card{
+  float: left;
+}
+p.card-text{
+  text-align: left;
+  margin-top: 15px;
+}
+h5.card-title{
+  font-size: 17px;
+  font-weight: 700;
+}
+div.card{
+  margin-bottom: 40px;
+  border-color: #25b3f9;
+  background: none;
+}
+div.card-container{
+  margin-top: 50px;
+}
+div.card-body {
+  position: relative;
+}
+div.card .card-body::before{
+  display: block;
+  font-size: 4rem;
+  position: absolute;
+  left: -10px;
+  top: -50px;
+  color: #25b3f9;
+  font-style: italic;
+}
+div.card:first-of-type .card-body::before{
+  content: '1';
+}
+div.card:nth-of-type(2) .card-body::before{
+  content: '2';
+}
+div.card:nth-of-type(3) .card-body::before{
+  content: '3';
+}
+.c-composition_example{
+  background-color: #efeff2;
+  padding: 50px 13px;
+}
+.img_1{
+  width:60%;
+  height:150px;
+  border: 2px solid #dddddd;
+  position: relative;
+  transform: translate(40%,0%);
+}
+.img_2{
+  position: relative;
+  transform: translate(10%, 30%);
+  margin: 0 auto;
+  width:60%;
+  height:150px;
+  border: 2px solid #dddddd;
+}
+.example_1_text_class{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.example_1_img_class{
+  display: flex;
+  justify-content: center;
+  transform: translate(-15%,0%);
+}
+.example_2{
+  margin-top: 100px;
+}
+.example_2_text_class{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.example_2_img_class{
+  display: flex;
+  transform: translate(10%,0%);
+}
+.img_3{
+  position: relative;
+  transform: translate(-20%,-10%);
+  width:55%;
+  height:150px;
+  border: 2px solid #dddddd;
+}
+.img_4{
+  position: relative;
+  transform: translate(-20%,-20%);
+  width:55%;
+  height:140px;
+  border: 2px solid #dddddd;
+  z-index: 1;
+}
+.img_mapping::before{
+  content: '';
+  display: block;
+  position: absolute;
+}
+.img_5{
+  position: relative;
+  transform: translate(-35%,0%);
+  width:55%;
+  height:140px;
+  border: 2px solid #dddddd;
+  z-index: 1;
+}
+
+.example_3{
+  margin-top: 260px;
+}
+body > section.c-composition_example > div.example_3 > div.example_3_text_class > h6{
+  font-size: 15px;
+}
+.example_3_text_class{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.example_3_img_class{
+  display: flex;
+  justify-content: center;
+}
+.img_6{
+  width:50%;
+  height:200px;
+  border: 2px solid #dddddd;
+  margin: 2px;
+}
+section.c_curriculum{
+  padding: 50px 20px;
+  background-image: url(./curriculum.jpg);
+  background-size: cover;
+}
+.c_curriculum_text_container{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+body > section.c_curriculum > div.c_curriculum_text_container > h3{
+  margin-top: 20px;
+  font-size: 20px;
+}
+body > section.c_curriculum > div.c_curriculum_text_container > h1{
+  font-size: 22px;
+  margin-bottom: 5px !important;
+}
+body > section.c_curriculum > div.c_curriculum_text_container > hr{
+  width: 45% !important;
+}
+body > section.c_curriculum > div.c_curriculum_text_container > hr:nth-child(3){
+    margin-top: 0px !important;
+}
+.curriculum_left_container{
+  float: left;
+}
+table.curriculum_left{
+    float: left;
+}
+table.curriculum_left td, table.curriculum_left th{
+  border: 1px solid white;
+}
+.day_class{
+  background-color: #efefef;
+}
+table.curriculum_right .right_day_class{
+  width: 14%;
+}
+.curriculum_right_container{
+  float: left;
+}
+table.curriculum_right{
+  float: left;
+}
+table.curriculum_right td, table.curriculum_right th{
+  border: 1px solid white;
+}
+body > section.c_curriculum > div.c_curriculum_text_container > h2{
+  font-size: 21;
+}
+.curriculum_table_container th, .curriculum_table_container td{
+  padding: 5px;
+  font-size: 11px;
+}
+.curriculum_table_container th{
+  background-color: #1f4287;
+  color: white;
+  font-weight: normal;
+}
+.curriculum_left_text{
+  background-color: white;
+  text-align: center;
+}
+.curriculum_main_text{
+  background-color: white;
+  text-align: left;
+}
+.c-differentiation{
+  padding: 40px;
+  background-color: white;
+}
+body > section.c-differentiation > h2{
+  margin-bottom: 30px;
+  font-size: 20px !important;
+}
+.differentiation_content_c{
+  width: 60%;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  padding: 40px 25px 20px 25px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 6px 5px 25px -8px;
+  min-width: 250px;
+
+}
+.differentiation_content_c:hover{
+  width: 100%;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  padding: 40px 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px -3px;
+}
+body > section.c-differentiation > div > div > h4{
+  font-size: 20px;
+}
+body > section.c-differentiation > div > div > p{
+  font-size: 12px;
+}
+body > section.c-differentiation > div > div:nth-child(4) > p{
+  font-size: 11px;
+}
+section.c-instructor{
+  padding: 0px 20px 20px 20px;
+  background-color: white;
+}
+h3.instructor_title{
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 16px;
+}
+body > section.c-differentiation > div > div > h6{
+  font-size: 12px;
+}
+body > section.c-differentiation > div > div > br{
+  display: none;
+}
+body > section.c-instructor > h2{
+  font-size: 20px !important;
+  transform: translate(0%,0%) !important;
+}
+.instructor_img{
+  width: auto;
+  height:200;
+  display: block;
+  margin: 0 auto;
+}
+.instructor_introduce{
+  margin: 30px auto;
+  width: 90%;
+  height: 120px;
+  background-color: #c9d8f2;
+  padding: 20px 25px 20px 40px;
+}
+body > section.c-instructor > div.instructor_introduce > p{
+  font-size: 11px !important;
+}
+body > section.c-instructor > div.instructor_introduce > i.fas.fa-quote-left{
+  font-size: 20px !important;
+  transform: translate(-140%,0%) !important;
+}
+body > section.c-instructor > div.instructor_introduce > i.fas.fa-quote-right{
+  font-size: 20px !important;
+  transform: translate(1150%,-390%) !important;
+}
+
+h4.instructor_profile_top{
+  font-weight: bold;
+  padding-left: 8px;
+  position: relative;
+  transform: translate(17%,110%);
+  margin-bottom: 0;
+}
+h4.instructor_profile_top:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #333;
+  width: 40px;
+  margin-top: 0px;
+  transform: translate(-6%,110%);
+}
+.instructor_profile{
+  position: relative;
+  margin: 30px 0px;
+}
+body > section.c-instructor > div.instructor_profile > div > ul > li{
+  font-size: 12px;
+}
+body > section.c-instructor > div.instructor_profile > div > h6{
+  font-size: 14px;
+}
+body > section.c-instructor > h4{
+  font-size: 18px;
+  transform: translate(1%,20%) !important;
+}
+body > section.c-instructor > div.instructor_profile > h4{
+  margin-bottom: 25px;
+  font-size: 20px;
+  transform: translate(3%,0);
+}
+body > section.c-instructor > div.instructor_profile > div:nth-child(3){
+  margin-bottom: 40px;
+}
+.instructor_intro_container{
+  width: 100%;
+  height:70%;
+  padding: 0px 0px 0px 30px;
+}
+.instructor_profile>br{
+  display: none;
+}
+.left_instructor{
+  width: 55%
+}
+.left_instructor_text{
+   float: left;
+   padding:20px;
+}
+.right_instructor{
+  width: 45%
+}
+.right_instructor_text{
+  padding: 20px;
+  float: left;
+}
+body > section.c-map > h2{
+  font-size: 20px !important;
+  transform: translate(-5%,-80%) !important;
+}
+section.c-map{
+  padding: 30px 40px;
+  height: 140vh;
+  background-color: white;
+}
+.map_container{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.img_map{
+  width: 100% !important;
+  height: 230px !important;
+  margin: 0 0 20px 0!important;
+}
+h5.card-title{
+  color:white;
+  font-weight: 400;
+}
+p.card-text{
+  color:white;
+  font-weight: 300;
+}
+.c-composition_text_container h3 ,.c-composition_text_container p{
+  color: white;
+}
+.call-button{
+  color: black;
+  padding: 10 0;
+  margin: 0 15%;
+  background-image: linear-gradient(to bottom,#f7ed8f,#edd117);
+  text-align: center;
+  width: 70%;
+  text-align: center;
+  border: 0;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.online-text{
+  font-size: 14px;
+}
+}
